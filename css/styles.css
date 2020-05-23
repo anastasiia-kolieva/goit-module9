@@ -1,0 +1,174 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* montserrat-regular - cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - cyrillic */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v14-cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* roboto-300 - cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url('../fonts/roboto-v20-cyrillic-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-cyrillic-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-regular - cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('../fonts/roboto-v20-cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  .header-br{
+      display: block;
+  }
+
+.header-wrapper {
+    background-size: cover;
+    background-image: url(../images/img-mobile.png);
+    background-color: #1a1915;
+    padding: 20px 0 138px 0;
+}
+
+.navigation {
+    margin-bottom: 35px;
+}
+
+.button-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 118px;
+}
+
+.button-log_in {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.button-sign_up {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.2;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    border-radius: 18px;
+    border: 2px solid #ffffff;
+    background: none;
+    cursor: pointer;
+    padding: 12px 18px;
+}
+
+.logotype {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+/* Отступ 2 */
+
+.header-title-wrapper{
+    text-align: center;
+}
+
+.header-title {
+    font-size: 30px;
+    line-height: 1.2;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Отступы 3 */
+
+.header-title-description {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+/* Отступы 2 */
+
+.header-title-button {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff4e50;
+    padding: 14px 52px;
+}
