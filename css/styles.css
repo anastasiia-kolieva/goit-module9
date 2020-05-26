@@ -79,7 +79,8 @@ img {
 }
 
 .header-br,
-.main-br {
+.main-br,
+.header-description-br {
     display: block;
 }
 
@@ -141,8 +142,6 @@ img {
     cursor: pointer;
 }
 
-/* Отступ 2 */
-
 .header-title-wrapper {
     text-align: center;
 }
@@ -158,8 +157,6 @@ img {
     margin-bottom: 20px;
 }
 
-/* Отступы 3 */
-
 .header-title-description {
     font-size: 18px;
     line-height: 1.2;
@@ -169,8 +166,6 @@ img {
     text-align: center;
     margin-bottom: 18px;
 }
-
-/* Отступы 2 */
 
 .header-title-button {
     font-size: 14px;
@@ -202,8 +197,6 @@ img {
     font-weight: 700;
     text-align: center;
 }
-
-/* Отступ 2,5 */
 
 .partners-list {
     margin-bottom: 28px;
@@ -267,8 +260,6 @@ img {
     margin-bottom: 22px;
 }
 
-/* Отступы 1.5 */
-
 .partner-list-item-description {
     font-size: 14px;
     line-height: 1.2;
@@ -277,9 +268,6 @@ img {
     font-weight: 300;
     text-align: center;
 }
-
-/* Отступы 1.5 */
-
 
 .button-wrapper {
     text-align: center;
@@ -309,14 +297,14 @@ img {
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px) {
 
     .header-wrapper {
         background-image: url(../images/img-tablet.png);
         padding: 38px 0 232px 0;
     }
 
-    .navigation{
+    .navigation {
         margin-bottom: 150px;
     }
 
@@ -333,6 +321,12 @@ img {
         margin-bottom: 40px;
     }
 
+    .header-br,
+    .main-br,
+    .header-description-br {
+        display: inline;
+    }
+
     .header-title-description {
         font-size: 24px;
         margin-bottom: 36px;
@@ -346,7 +340,7 @@ img {
         margin-bottom: 38px;
     }
 
-    .partners-list{
+    .partners-list {
         margin: 0 auto 40px;
     }
 
@@ -374,9 +368,86 @@ img {
         order: 4;
     }
 
-    .button-wrapper{
+    .button-wrapper {
         margin: 0 auto;
     }
+
+    .button-partners {
+        padding: 13px 30px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .header-wrapper {
+        background-image: url(../images/img-desktop.png);
+        padding: 38px 0 232px 0;
+    }
+
+    .navigation {
+        margin-bottom: 150px;
+    }
+
+    .header-title-wrapper {
+        margin: 0 auto;
+    }
+
+    .button-list {
+        margin-bottom: 0;
+    }
+
+    .main-br,
+    .header-description-br {
+        display: inline;
+    }
+
+    .header-title {
+        font-size: 52px;
+        margin-bottom: 40px;
+    }
+
+    .header-title-description {
+        font-size: 24px;
+        margin-bottom: 36px;
+    }
+
+    .partners {
+        padding-bottom: 74px;
+    }
+
+    .partners-title-wrapper {
+        text-align: center;
+        margin-bottom: 38px;
+    }
+
+    .partners-list {
+        margin-bottom: 40px;
+    }
+
+    .partner-list-item {
+        margin-bottom: 0;
+    }
+
+    .orde_1 {
+        order: 1;
+    }
+
+    .order_2 {
+        order: 3;
+    }
+
+    .order_3 {
+        order: 2;
+    }
+
+    .order_4 {
+        order: 4;
+    }
+
+    .button-wrapper {
+        margin: 0 auto;
+    }
+
     .button-partners {
         padding: 13px 30px;
     }
