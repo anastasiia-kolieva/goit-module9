@@ -177,7 +177,7 @@ img {
     border-radius: 20px;
     border: none;
     background-color: #ff4e50;
-    padding: 14px 52px;
+    padding: 14px 45px;
 }
 
 .partners {
@@ -199,7 +199,7 @@ img {
 }
 
 .partners-list {
-    margin-bottom: 28px;
+    margin: 0 auto 28px;
 
 }
 
